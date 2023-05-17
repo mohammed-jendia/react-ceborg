@@ -1,0 +1,60 @@
+.button {
+    font-size: 14px;
+    color: #fff ;
+    padding: 12px 30px;
+    border-radius: 25px;
+    letter-spacing: 0.5px;
+    transition: all .3s;
+    width: 30%;
+}
+
+.primary-btn {
+    background-color: #ec6090 ;
+}
+
+.primary-btn:hover{
+    background-color: #fff;
+    color: #ec6090 ;
+}
+
+.secondary-btn{
+    border:  1px solid var(--color-primary);
+    width: 15%;
+    height: 10%;
+}
+
+.secondary-btn:hover{
+    background-color: #fff;
+    color: #ec6090 !important;
+}
+
+
+/*    Media Query    */
+
+@media  (max-width: 576px) {
+
+    .primary-btn  {
+        font-size: 15px;
+        padding: 12px 30px;
+        width: 74% !important;
+        text-align: center;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .primary-btn  {
+       width: 37%;
+        padding: 10px 30px;
+    }
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+   
+    .secondary-btn{
+        width: 18%;
+     }
+   
+}

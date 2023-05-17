@@ -1,0 +1,56 @@
+.gaming-libary-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+/*    Media Query    */
+
+@media  (max-width: 576px) {
+
+    .secondary-btn {
+        display: none;
+    }
+   
+    .gaming-libary-card img{
+        display: none;
+    }
+
+    .gaming-libary-card li h4{
+        font-size: 10px;
+    }
+
+    .gaming-libary-card li span{
+        font-size: 10px;
+    }
+
+    .section-Wrapper {
+        padding: 40px 10px;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .section-Wrapper {
+        padding: 40px 20px;
+    }
+
+    .secondary-btn {
+        display: none;
+    }
+
+    .gaming-libary-card img{
+        display: none;
+    }
+
+    .gaming-libary-card li h4, span{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+    .secondary-btn {
+        display: none;
+    }
+}

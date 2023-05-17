@@ -1,0 +1,5 @@
+.main-container{
+    padding: 50px !important;
+    background-color: var(--color-dark);
+    border-radius: 25px;
+}

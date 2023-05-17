@@ -1,0 +1,45 @@
+.Most-Popular-item{
+    flex: 1 25%;
+
+}
+
+.card-Wrapper{
+    background-color: var(--color-dark);
+    border-radius: 12px;
+    padding: 33px 22px;
+    margin: 29px 32px;
+}
+
+.Most-Popular-item-image{
+    width: 100%;
+    border-radius: 6px;
+    margin-bottom: 25px;
+}
+
+.Most-Popular-item-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Most-Popular-item-title{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+
+/*    Media Query    */
+
+@media  (max-width: 576px) {
+
+    .Most-Popular-items {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+
+    .Most-Popular-items {
+        display: flex;
+        justify-content: center;
+    }
+}

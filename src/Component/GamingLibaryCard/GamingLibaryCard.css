@@ -1,0 +1,13 @@
+.gaming-libary-card{
+    flex: 1 1 100%;
+}
+
+.gaming-libary-card ul{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #27292a;
+    padding: 25px 0;
+}
+.gaming-libary-card h4{
+    font-size: 1rem;
+}

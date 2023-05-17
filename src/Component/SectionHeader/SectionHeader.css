@@ -1,0 +1,28 @@
+.section-header h4{
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+
+/*    Media Query    */
+
+@media  (max-width: 576px) {
+    
+    .section-header h4 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 20px;
+
+    }
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+ 
+    .section-header h4 {
+        margin-bottom: 40px;
+        text-align: center;
+        font-size: 30px;
+
+    }
+}
